@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Showing Alerts</title>
+	</head>
+	<body>
+		<input type="text"placeholder="fist name" id="inp1">
+		<input type="text"placeholder="last name"id="inp2" >
+
+
+		<button onclick="showFirstName()">FIRSTNAME</button>
+		<button onclick="showLastName()">LASTNAME</button>
+		<button onclick="showFullName()">FIRSTNAME NAME</button>
+		<script type="text/javascript" >
+			input1=document.getElementById("inp1")
+			input2=document.getElementById("inp2")
+
+            function showFirstName() {
+			    // Complete to show an alert with your first name 
+				alert(input1.value)
+				input1=document.getElementById("inp1")
+			input2=document.getElementById("inp2")
+
+			}
+
+            function showLastName() {
+                // Complete to show an alert with your last name             
+            alert(input2.value)
+			input1=document.getElementById("inp1")
+			input2=document.getElementById("inp2")
+
+			}
+            function showFullName() {
+                // Complete to show an alert with your full name (firstname lastname)
+				alert(input1.value+input2.value)
+				input1=document.getElementById("inp1")
+			input2=document.getElementById("inp2")
+
+            }
+        </script>
+	</body>
+</html>
+<!-- Complete all the functions by creating a copy of the above template with the file name alerts.html
+
+Submission Link
+SUBMIT
+ASSIGNMENT CONCLUDES DATE AND TIME : (27 OCT, 23 - 9:45 PM) -->
